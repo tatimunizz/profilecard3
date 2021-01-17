@@ -1,0 +1,52 @@
+@import "variables";
+body {
+  background-color: $Dark-Cyan;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -55% 45%, 120% -45%;
+
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: $Font-size-body;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: $Very-Dark-Desaturated-Blue;
+}
+
+h2{
+  font-size: 14px;
+  font-weight: 400;
+  color: $Dark-Gray;
+  justify-content: center;
+}
+bdi{
+  color: $Dark-Gray;
+}
+
+h3{
+  font-size: 12px;
+  font-weight: 400;
+  color: $Dark-Gray;
+  line-height: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $Very-Dark-Desaturated-Blue;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: $Dark-Gray;
+  text-align: center;
+}
