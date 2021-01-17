@@ -1,6 +1,6 @@
 body {
   background-color: #19a2ae;
-  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: -55% 45%, 120% -45%;
   font-family: "Kumbh Sans", sans-serif;
@@ -62,7 +62,7 @@ a {
   height: 400px;
   border-radius: 11px;
   background-color: white;
-  background-image: url("../images/bg-pattern-card.svg");
+  background-image: url("images/bg-pattern-card.svg");
   background-position: top 35%;
   background-repeat: repeat-x;
 }
